@@ -16,7 +16,7 @@ class SignupOwnerVC: UIViewController {
         
         
         
-        
+        print("Upload")
         
     }
 
