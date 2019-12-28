@@ -1,0 +1,868 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		289A63DB240F9D9E2ED082B5 /* Pods_GSG_MallepSportsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A007E2C9A540223565EE48E9 /* Pods_GSG_MallepSportsTests.framework */; };
+		3B149A7B2396E462000F6520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B149A7A2396E462000F6520 /* AppDelegate.swift */; };
+		3B149A7D2396E462000F6520 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B149A7C2396E462000F6520 /* SceneDelegate.swift */; };
+		3B149A7F2396E462000F6520 /* SigninVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B149A7E2396E462000F6520 /* SigninVC.swift */; };
+		3B149A822396E462000F6520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B149A802396E462000F6520 /* Main.storyboard */; };
+		3B149A852396E462000F6520 /* GSG_MallepSports.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B149A832396E462000F6520 /* GSG_MallepSports.xcdatamodeld */; };
+		3B149A872396E463000F6520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B149A862396E463000F6520 /* Assets.xcassets */; };
+		3B149A8A2396E463000F6520 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B149A882396E463000F6520 /* LaunchScreen.storyboard */; };
+		3B149A952396E464000F6520 /* GSG_MallepSportsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B149A942396E464000F6520 /* GSG_MallepSportsTests.swift */; };
+		3B149AA02396E464000F6520 /* GSG_MallepSportsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B149A9F2396E464000F6520 /* GSG_MallepSportsUITests.swift */; };
+		3B300A9A23AC5272004C1DE7 /* SignupPlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B300A9923AC5272004C1DE7 /* SignupPlayerVC.swift */; };
+		3B300A9C23AC52C3004C1DE7 /* SignupOwnerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B300A9B23AC52C3004C1DE7 /* SignupOwnerVC.swift */; };
+		3B48D55C239941A3004830F0 /* PageControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B48D55B239941A3004830F0 /* PageControlTests.swift */; };
+		3B4ADDEB23AC53D800AB1549 /* Verification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4ADDEA23AC53D800AB1549 /* Verification.swift */; };
+		3BC7AA4323B01CC4007CC31C /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC7AA4223B01CC4007CC31C /* MainVC.swift */; };
+		3BC7AA4A23B02578007CC31C /* malaebCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC7AA4823B02578007CC31C /* malaebCell.swift */; };
+		3BC7AA4B23B02578007CC31C /* malaebCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BC7AA4923B02578007CC31C /* malaebCell.xib */; };
+		A9978F754DDCD4418823F690 /* Pods_GSG_MallepSports.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9098A09B036B9E077CA04918 /* Pods_GSG_MallepSports.framework */; };
+		D3D0340A8B0FAD72095194A4 /* Pods_GSG_MallepSports_GSG_MallepSportsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29CF0791566AEC5883C44FDF /* Pods_GSG_MallepSports_GSG_MallepSportsUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B149A912396E464000F6520 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B149A6F2396E462000F6520 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B149A762396E462000F6520;
+			remoteInfo = GSG_MallepSports;
+		};
+		3B149A9C2396E464000F6520 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B149A6F2396E462000F6520 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B149A762396E462000F6520;
+			remoteInfo = GSG_MallepSports;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		239E3CC7CC7CB7143CEA6350 /* Pods-GSG_MallepSports-GSG_MallepSportsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSG_MallepSports-GSG_MallepSportsUITests.debug.xcconfig"; path = "Target Support Files/Pods-GSG_MallepSports-GSG_MallepSportsUITests/Pods-GSG_MallepSports-GSG_MallepSportsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		29CF0791566AEC5883C44FDF /* Pods_GSG_MallepSports_GSG_MallepSportsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSG_MallepSports_GSG_MallepSportsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B149A772396E462000F6520 /* GSG_MallepSports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSG_MallepSports.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B149A7A2396E462000F6520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B149A7C2396E462000F6520 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3B149A7E2396E462000F6520 /* SigninVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninVC.swift; sourceTree = "<group>"; };
+		3B149A812396E462000F6520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B149A842396E462000F6520 /* GSG_MallepSports.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GSG_MallepSports.xcdatamodel; sourceTree = "<group>"; };
+		3B149A862396E463000F6520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B149A892396E463000F6520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B149A8B2396E463000F6520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B149A902396E464000F6520 /* GSG_MallepSportsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSG_MallepSportsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B149A942396E464000F6520 /* GSG_MallepSportsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSG_MallepSportsTests.swift; sourceTree = "<group>"; };
+		3B149A962396E464000F6520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B149A9B2396E464000F6520 /* GSG_MallepSportsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSG_MallepSportsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B149A9F2396E464000F6520 /* GSG_MallepSportsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSG_MallepSportsUITests.swift; sourceTree = "<group>"; };
+		3B149AA12396E464000F6520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B300A9923AC5272004C1DE7 /* SignupPlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupPlayerVC.swift; sourceTree = "<group>"; };
+		3B300A9B23AC52C3004C1DE7 /* SignupOwnerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupOwnerVC.swift; sourceTree = "<group>"; };
+		3B48D55B239941A3004830F0 /* PageControlTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageControlTests.swift; sourceTree = "<group>"; };
+		3B4ADDEA23AC53D800AB1549 /* Verification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verification.swift; sourceTree = "<group>"; };
+		3B7499B2239950FD00D67C01 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		3B7499B3239950FD00D67C01 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		3B7499B4239950FD00D67C01 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		3B7499B5239950FD00D67C01 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		3B7499B6239950FD00D67C01 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		3B7499B7239950FD00D67C01 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		3B7499B8239950FE00D67C01 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		3B7499B9239950FE00D67C01 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		3B7499BA239950FE00D67C01 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		3B7499BB239950FE00D67C01 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		3B7499BC239950FE00D67C01 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		3B7499BD239950FE00D67C01 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		3B7499BE239950FE00D67C01 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		3BC7AA4223B01CC4007CC31C /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		3BC7AA4823B02578007CC31C /* malaebCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = malaebCell.swift; sourceTree = "<group>"; };
+		3BC7AA4923B02578007CC31C /* malaebCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = malaebCell.xib; sourceTree = "<group>"; };
+		5C48D18855F2707A36DBD521 /* Pods-GSG_MallepSportsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSG_MallepSportsTests.release.xcconfig"; path = "Target Support Files/Pods-GSG_MallepSportsTests/Pods-GSG_MallepSportsTests.release.xcconfig"; sourceTree = "<group>"; };
+		7579D84EBEE453C9578D9AB2 /* Pods-GSG_MallepSportsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSG_MallepSportsTests.debug.xcconfig"; path = "Target Support Files/Pods-GSG_MallepSportsTests/Pods-GSG_MallepSportsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		768A7C0B3435FA5C9B1857FF /* Pods-GSG_MallepSports.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSG_MallepSports.debug.xcconfig"; path = "Target Support Files/Pods-GSG_MallepSports/Pods-GSG_MallepSports.debug.xcconfig"; sourceTree = "<group>"; };
+		9098A09B036B9E077CA04918 /* Pods_GSG_MallepSports.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSG_MallepSports.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A007E2C9A540223565EE48E9 /* Pods_GSG_MallepSportsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSG_MallepSportsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA10B9875815DF9E4ACC097 /* Pods-GSG_MallepSports-GSG_MallepSportsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSG_MallepSports-GSG_MallepSportsUITests.release.xcconfig"; path = "Target Support Files/Pods-GSG_MallepSports-GSG_MallepSportsUITests/Pods-GSG_MallepSports-GSG_MallepSportsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CFFEC41C1A362A181F4EF5A4 /* Pods-GSG_MallepSports.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSG_MallepSports.release.xcconfig"; path = "Target Support Files/Pods-GSG_MallepSports/Pods-GSG_MallepSports.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B149A742396E462000F6520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9978F754DDCD4418823F690 /* Pods_GSG_MallepSports.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B149A8D2396E464000F6520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289A63DB240F9D9E2ED082B5 /* Pods_GSG_MallepSportsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B149A982396E464000F6520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D0340A8B0FAD72095194A4 /* Pods_GSG_MallepSports_GSG_MallepSportsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3191B0076C6B60AFE4CA2B66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				768A7C0B3435FA5C9B1857FF /* Pods-GSG_MallepSports.debug.xcconfig */,
+				CFFEC41C1A362A181F4EF5A4 /* Pods-GSG_MallepSports.release.xcconfig */,
+				239E3CC7CC7CB7143CEA6350 /* Pods-GSG_MallepSports-GSG_MallepSportsUITests.debug.xcconfig */,
+				AAA10B9875815DF9E4ACC097 /* Pods-GSG_MallepSports-GSG_MallepSportsUITests.release.xcconfig */,
+				7579D84EBEE453C9578D9AB2 /* Pods-GSG_MallepSportsTests.debug.xcconfig */,
+				5C48D18855F2707A36DBD521 /* Pods-GSG_MallepSportsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3B149A6E2396E462000F6520 = {
+			isa = PBXGroup;
+			children = (
+				3B7499AF2399502C00D67C01 /* Fonts */,
+				3B300A9823AC516B004C1DE7 /* Model */,
+				3B300A9723AC5165004C1DE7 /* View */,
+				3B300A9623AC5159004C1DE7 /* ViewController */,
+				3B149A792396E462000F6520 /* GSG_MallepSports */,
+				3B149A932396E464000F6520 /* GSG_MallepSportsTests */,
+				3B149A9E2396E464000F6520 /* GSG_MallepSportsUITests */,
+				3B149A782396E462000F6520 /* Products */,
+				3191B0076C6B60AFE4CA2B66 /* Pods */,
+				3FB161154104DACAC36EC415 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B149A782396E462000F6520 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B149A772396E462000F6520 /* GSG_MallepSports.app */,
+				3B149A902396E464000F6520 /* GSG_MallepSportsTests.xctest */,
+				3B149A9B2396E464000F6520 /* GSG_MallepSportsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B149A792396E462000F6520 /* GSG_MallepSports */ = {
+			isa = PBXGroup;
+			children = (
+				3B149A7A2396E462000F6520 /* AppDelegate.swift */,
+				3B149A7C2396E462000F6520 /* SceneDelegate.swift */,
+				3B149A802396E462000F6520 /* Main.storyboard */,
+				3B149A862396E463000F6520 /* Assets.xcassets */,
+				3B149A882396E463000F6520 /* LaunchScreen.storyboard */,
+				3B149A8B2396E463000F6520 /* Info.plist */,
+				3B149A832396E462000F6520 /* GSG_MallepSports.xcdatamodeld */,
+			);
+			path = GSG_MallepSports;
+			sourceTree = "<group>";
+		};
+		3B149A932396E464000F6520 /* GSG_MallepSportsTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B149A942396E464000F6520 /* GSG_MallepSportsTests.swift */,
+				3B149A962396E464000F6520 /* Info.plist */,
+			);
+			path = GSG_MallepSportsTests;
+			sourceTree = "<group>";
+		};
+		3B149A9E2396E464000F6520 /* GSG_MallepSportsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B149A9F2396E464000F6520 /* GSG_MallepSportsUITests.swift */,
+				3B149AA12396E464000F6520 /* Info.plist */,
+			);
+			path = GSG_MallepSportsUITests;
+			sourceTree = "<group>";
+		};
+		3B300A9623AC5159004C1DE7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3B300A9723AC5165004C1DE7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B300A9823AC516B004C1DE7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BC7AA4123B01CA0007CC31C /* Home Page */,
+				3B4ADDE923AC538300AB1549 /* Sign */,
+				3B48D55B239941A3004830F0 /* PageControlTests.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B4ADDE923AC538300AB1549 /* Sign */ = {
+			isa = PBXGroup;
+			children = (
+				3B300A9923AC5272004C1DE7 /* SignupPlayerVC.swift */,
+				3B300A9B23AC52C3004C1DE7 /* SignupOwnerVC.swift */,
+				3B149A7E2396E462000F6520 /* SigninVC.swift */,
+				3B4ADDEA23AC53D800AB1549 /* Verification.swift */,
+			);
+			path = Sign;
+			sourceTree = "<group>";
+		};
+		3B7499AF2399502C00D67C01 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3B7499BC239950FE00D67C01 /* LICENSE.txt */,
+				3B7499BB239950FE00D67C01 /* Roboto-Black.ttf */,
+				3B7499B2239950FD00D67C01 /* Roboto-BlackItalic.ttf */,
+				3B7499B3239950FD00D67C01 /* Roboto-Bold.ttf */,
+				3B7499B4239950FD00D67C01 /* Roboto-BoldItalic.ttf */,
+				3B7499B5239950FD00D67C01 /* Roboto-Italic.ttf */,
+				3B7499B7239950FD00D67C01 /* Roboto-Light.ttf */,
+				3B7499BD239950FE00D67C01 /* Roboto-LightItalic.ttf */,
+				3B7499B8239950FE00D67C01 /* Roboto-Medium.ttf */,
+				3B7499B9239950FE00D67C01 /* Roboto-MediumItalic.ttf */,
+				3B7499BE239950FE00D67C01 /* Roboto-Regular.ttf */,
+				3B7499B6239950FD00D67C01 /* Roboto-Thin.ttf */,
+				3B7499BA239950FE00D67C01 /* Roboto-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3BC7AA4123B01CA0007CC31C /* Home Page */ = {
+			isa = PBXGroup;
+			children = (
+				3BC7AA4223B01CC4007CC31C /* MainVC.swift */,
+				3BC7AA4823B02578007CC31C /* malaebCell.swift */,
+				3BC7AA4923B02578007CC31C /* malaebCell.xib */,
+			);
+			path = "Home Page";
+			sourceTree = "<group>";
+		};
+		3FB161154104DACAC36EC415 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9098A09B036B9E077CA04918 /* Pods_GSG_MallepSports.framework */,
+				29CF0791566AEC5883C44FDF /* Pods_GSG_MallepSports_GSG_MallepSportsUITests.framework */,
+				A007E2C9A540223565EE48E9 /* Pods_GSG_MallepSportsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B149A762396E462000F6520 /* GSG_MallepSports */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B149AA42396E464000F6520 /* Build configuration list for PBXNativeTarget "GSG_MallepSports" */;
+			buildPhases = (
+				60E4ED09ECAEDD5FE3724F8A /* [CP] Check Pods Manifest.lock */,
+				3B149A732396E462000F6520 /* Sources */,
+				3B149A742396E462000F6520 /* Frameworks */,
+				3B149A752396E462000F6520 /* Resources */,
+				B53E327DA1BEC540C1C27FAF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSG_MallepSports;
+			productName = GSG_MallepSports;
+			productReference = 3B149A772396E462000F6520 /* GSG_MallepSports.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B149A8F2396E464000F6520 /* GSG_MallepSportsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B149AA72396E464000F6520 /* Build configuration list for PBXNativeTarget "GSG_MallepSportsTests" */;
+			buildPhases = (
+				62C5E23CFD0519F475EC8987 /* [CP] Check Pods Manifest.lock */,
+				3B149A8C2396E464000F6520 /* Sources */,
+				3B149A8D2396E464000F6520 /* Frameworks */,
+				3B149A8E2396E464000F6520 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B149A922396E464000F6520 /* PBXTargetDependency */,
+			);
+			name = GSG_MallepSportsTests;
+			productName = GSG_MallepSportsTests;
+			productReference = 3B149A902396E464000F6520 /* GSG_MallepSportsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B149A9A2396E464000F6520 /* GSG_MallepSportsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B149AAA2396E464000F6520 /* Build configuration list for PBXNativeTarget "GSG_MallepSportsUITests" */;
+			buildPhases = (
+				EBED4D7428F7C38B3B34B100 /* [CP] Check Pods Manifest.lock */,
+				3B149A972396E464000F6520 /* Sources */,
+				3B149A982396E464000F6520 /* Frameworks */,
+				3B149A992396E464000F6520 /* Resources */,
+				E8CB65130772534D4426F986 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B149A9D2396E464000F6520 /* PBXTargetDependency */,
+			);
+			name = GSG_MallepSportsUITests;
+			productName = GSG_MallepSportsUITests;
+			productReference = 3B149A9B2396E464000F6520 /* GSG_MallepSportsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B149A6F2396E462000F6520 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Yasser;
+				TargetAttributes = {
+					3B149A762396E462000F6520 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					3B149A8F2396E464000F6520 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 3B149A762396E462000F6520;
+					};
+					3B149A9A2396E464000F6520 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 3B149A762396E462000F6520;
+					};
+				};
+			};
+			buildConfigurationList = 3B149A722396E462000F6520 /* Build configuration list for PBXProject "GSG_MallepSports" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B149A6E2396E462000F6520;
+			productRefGroup = 3B149A782396E462000F6520 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B149A762396E462000F6520 /* GSG_MallepSports */,
+				3B149A8F2396E464000F6520 /* GSG_MallepSportsTests */,
+				3B149A9A2396E464000F6520 /* GSG_MallepSportsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B149A752396E462000F6520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B149A8A2396E463000F6520 /* LaunchScreen.storyboard in Resources */,
+				3BC7AA4B23B02578007CC31C /* malaebCell.xib in Resources */,
+				3B149A872396E463000F6520 /* Assets.xcassets in Resources */,
+				3B149A822396E462000F6520 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B149A8E2396E464000F6520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B149A992396E464000F6520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60E4ED09ECAEDD5FE3724F8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GSG_MallepSports-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62C5E23CFD0519F475EC8987 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GSG_MallepSportsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B53E327DA1BEC540C1C27FAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GSG_MallepSports/Pods-GSG_MallepSports-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GSG_MallepSports/Pods-GSG_MallepSports-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GSG_MallepSports/Pods-GSG_MallepSports-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8CB65130772534D4426F986 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GSG_MallepSports-GSG_MallepSportsUITests/Pods-GSG_MallepSports-GSG_MallepSportsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GSG_MallepSports-GSG_MallepSportsUITests/Pods-GSG_MallepSports-GSG_MallepSportsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GSG_MallepSports-GSG_MallepSportsUITests/Pods-GSG_MallepSports-GSG_MallepSportsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBED4D7428F7C38B3B34B100 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GSG_MallepSports-GSG_MallepSportsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B149A732396E462000F6520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B149A7F2396E462000F6520 /* SigninVC.swift in Sources */,
+				3B149A7B2396E462000F6520 /* AppDelegate.swift in Sources */,
+				3B4ADDEB23AC53D800AB1549 /* Verification.swift in Sources */,
+				3BC7AA4A23B02578007CC31C /* malaebCell.swift in Sources */,
+				3B300A9C23AC52C3004C1DE7 /* SignupOwnerVC.swift in Sources */,
+				3BC7AA4323B01CC4007CC31C /* MainVC.swift in Sources */,
+				3B149A7D2396E462000F6520 /* SceneDelegate.swift in Sources */,
+				3B48D55C239941A3004830F0 /* PageControlTests.swift in Sources */,
+				3B300A9A23AC5272004C1DE7 /* SignupPlayerVC.swift in Sources */,
+				3B149A852396E462000F6520 /* GSG_MallepSports.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B149A8C2396E464000F6520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B149A952396E464000F6520 /* GSG_MallepSportsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B149A972396E464000F6520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B149AA02396E464000F6520 /* GSG_MallepSportsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B149A922396E464000F6520 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B149A762396E462000F6520 /* GSG_MallepSports */;
+			targetProxy = 3B149A912396E464000F6520 /* PBXContainerItemProxy */;
+		};
+		3B149A9D2396E464000F6520 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B149A762396E462000F6520 /* GSG_MallepSports */;
+			targetProxy = 3B149A9C2396E464000F6520 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B149A802396E462000F6520 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B149A812396E462000F6520 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B149A882396E463000F6520 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B149A892396E463000F6520 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B149AA22396E464000F6520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B149AA32396E464000F6520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B149AA52396E464000F6520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 768A7C0B3435FA5C9B1857FF /* Pods-GSG_MallepSports.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GSG_MallepSports/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Yasser.IOS..GSG-MallepSports";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B149AA62396E464000F6520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFFEC41C1A362A181F4EF5A4 /* Pods-GSG_MallepSports.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GSG_MallepSports/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Yasser.IOS..GSG-MallepSports";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B149AA82396E464000F6520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7579D84EBEE453C9578D9AB2 /* Pods-GSG_MallepSportsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GSG_MallepSportsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Yasser.IOS..GSG-MallepSportsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GSG_MallepSports.app/GSG_MallepSports";
+			};
+			name = Debug;
+		};
+		3B149AA92396E464000F6520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C48D18855F2707A36DBD521 /* Pods-GSG_MallepSportsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GSG_MallepSportsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Yasser.IOS..GSG-MallepSportsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GSG_MallepSports.app/GSG_MallepSports";
+			};
+			name = Release;
+		};
+		3B149AAB2396E464000F6520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 239E3CC7CC7CB7143CEA6350 /* Pods-GSG_MallepSports-GSG_MallepSportsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GSG_MallepSportsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Yasser.IOS..GSG-MallepSportsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GSG_MallepSports;
+			};
+			name = Debug;
+		};
+		3B149AAC2396E464000F6520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAA10B9875815DF9E4ACC097 /* Pods-GSG_MallepSports-GSG_MallepSportsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GSG_MallepSportsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Yasser.IOS..GSG-MallepSportsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GSG_MallepSports;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B149A722396E462000F6520 /* Build configuration list for PBXProject "GSG_MallepSports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B149AA22396E464000F6520 /* Debug */,
+				3B149AA32396E464000F6520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B149AA42396E464000F6520 /* Build configuration list for PBXNativeTarget "GSG_MallepSports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B149AA52396E464000F6520 /* Debug */,
+				3B149AA62396E464000F6520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B149AA72396E464000F6520 /* Build configuration list for PBXNativeTarget "GSG_MallepSportsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B149AA82396E464000F6520 /* Debug */,
+				3B149AA92396E464000F6520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B149AAA2396E464000F6520 /* Build configuration list for PBXNativeTarget "GSG_MallepSportsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B149AAB2396E464000F6520 /* Debug */,
+				3B149AAC2396E464000F6520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3B149A832396E462000F6520 /* GSG_MallepSports.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3B149A842396E462000F6520 /* GSG_MallepSports.xcdatamodel */,
+			);
+			currentVersion = 3B149A842396E462000F6520 /* GSG_MallepSports.xcdatamodel */;
+			path = GSG_MallepSports.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3B149A6F2396E462000F6520 /* Project object */;
+}
